@@ -1,0 +1,19 @@
+/* Applica il font 'Lora' ai titoli */
+h1, h2, h3,h4{
+    font-family: 'Lora', serif;
+    color: green;
+    background-color: black;
+}
+
+/* Applica il font 'Roboto' al resto del testo */
+body, p, a, li, button {
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{background-image:url(https://picsum.photos/2000);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* cambia colore di sfondo al passaggio del mouse */
+button:hover{color: green;}
