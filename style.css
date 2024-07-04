@@ -1,19 +1,85 @@
-/* Applica il font 'Lora' ai titoli */
-h1, h2, h3,h4{
-    font-family: 'Lora', serif;
-    color: green;
-    background-color: black;
+.logoaulab {
+    width: 100px;
+    height: 100px;
 }
 
-/* Applica il font 'Roboto' al resto del testo */
-body, p, a, li, button {
-    font-family: 'Roboto', sans-serif;
+.link {
+    text-decoration: none;
+    color: white;
     
 }
-body{background-image:url(https://picsum.photos/2000);
+
+.listlink {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+
+.listlink li {
+    display: inline-block;
+}
+
+.listlink li a {
+    padding: 10px;
+    transition: border-bottom 0.3s;
+    font-size: 25px;
+}
+
+.listlink li a:hover {
+    border-bottom: 2px solid white;
+}
+
+header {
+    background-image: url(https://picsum.photos/2000);
+    height: 80vh;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    text-align: center;
 }
-/* cambia colore di sfondo al passaggio del mouse */
-button:hover{color: green;}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.linkhome {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: green;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.articles {
+    width: 60%;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 40%;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
